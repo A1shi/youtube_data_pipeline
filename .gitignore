@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Airflow generated files
+airflow/logs/
+
+# Generated pipeline data
+data/raw/
+data/validated/
+data/transformed/
